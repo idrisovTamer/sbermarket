@@ -12,7 +12,9 @@ const Navbar = () => {
             </div>
 
             <div> 
-                <button className=' h-14 border rounded-[14px] w-20 font-bold' type='button'>Войти</button>
+            <button className='h-14 border rounded-[14px] w-20 font-bold transition duration-300 hover:bg-gray-100' type='button'>
+  Войти
+</button>
             </div>
         </div>
     </section>

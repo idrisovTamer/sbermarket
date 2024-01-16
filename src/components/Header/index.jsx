@@ -55,11 +55,12 @@ const Header = () => {
 <div className="flex flex-col gap-6 w-auto mt-10">
   <h2 className=" pl-4 font-bold text-2xl">Нашли 1 магазин в <span className=" text-green-600">Грозном</span></h2>
   <h4 className="pl-4 text-gray-400 font-bold">Напишите свой адрес — покажем, откуда к вам могут привезти товары</h4>
-  <div className=" relative flex py-2 bg-slate-100 rounded-xl justify-between w-full pl-5">
-    <div className=" w-[20%] bg-blue-900   py-6 rounded-br-[85px] rounded-l-[10px] relative z-10">
+  <div className=" relative flex py-2 bg-slate-100 rounded-xl justify-between w-full pl-5 ">
+    
+    <div className=" sm:w-[30%] md:w-[28%] lg:w-[20%] w-[40%] bg-blue-900   py-6 rounded-br-[85px] rounded-l-[10px] relative z-10 ">
       <img className="rounded-xl h-14" src="/image/lentasmall.avif" alt="lenta" />
     </div>
-    <div className="absolute  h-[86%] ml-28 w-44  z-1">
+    <div className="absolute  h-[86%] ml-16 md:ml-28 sm:ml-38 lg:ml-28 w-44  z-1">
       <img className="h-full w-full rounded-r-[10px] " src="/image/flower.avif" alt="flower" />
     </div>
   </div>
