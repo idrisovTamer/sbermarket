@@ -11,17 +11,17 @@ const Header = () => {
       </div>
 
       <div className="flex justify-between p-1 h-auto">
-        <div className="relative flex min-h-[300px] w-[80%]">
-        <div className="absolute flex flex-col h-full justify-around pl-16">
-            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-3xl font-medium mt-10">
+        <div className="relative flex min-h-[300px] md:w-[80%]">
+        <div className="absolute flex flex-col h-full justify-around sm:pl-16 pl-2">
+            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-xl font-medium mt-10">
               Доставка из любимых <br />
               магазинов в Грозном
             </p>
-            <div className="relative  w-full">
+            <div className="relative  w-full flex  ">
               <input
                 type="text"
                 placeholder="Ваш адрес"
-                className="px-4 py-2 border rounded-[5px] w-full h-14 font-bold"
+                className="sm:px-4 sm:py-2 border rounded-[5px]  w-full h-14 font-bold"
               />
               <button className="absolute right-0 py-2 mt-2 px-3 mr-2  text-white border rounded-[5px]">
                 ⚓️
