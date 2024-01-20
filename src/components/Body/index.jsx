@@ -46,8 +46,8 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center text-center  md:justify-around leading-[1.28 p-16 text-[22px]">
-        <div className="flex flex-col gap-8">
+      <div className="flex gap-4 flex-col lg:flex-row justify-center text-center  lg:justify-around leading-[1.28 p-16 sm:text-lg md:text-2xl lg:text-2xl">
+        <div className="flex flex-col lg:gap-8">
           <p>
             <span className=" text-green-600 font-bold">Более 3 миллионов</span>{" "}
             заказов в месяц <br />
@@ -62,7 +62,7 @@ const Body = () => {
             по всей России
           </p>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col lg:gap-8">
           <p>
             <span className=" text-green-600 font-bold">Более 130</span>{" "}
             федеральных и региональных <br />
@@ -77,6 +77,18 @@ const Body = () => {
           </p>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="relative sm:mt-16 flex w-full h-full">
       <div className="absolute max-w-[500px]  sm:gap-6 flex flex-col justify-center items-center pt-16 py-16  md:pt-20 md:pl-16">

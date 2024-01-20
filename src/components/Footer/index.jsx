@@ -21,44 +21,45 @@ const Footer = () => {
             </div>
         </div>
 
-        <footer className='bg-gray-100 mt-16 flex flex-row justify-around text-left pt-6'>
-        <div className=' bg-gray-100 w-[210px] h-[70px]'>
-            <img className='bg-gray-100' src='/image/sbermar.png' alt=''/>
-        </div>
+        <footer className='bg-gray-100 mt-16 pt-6 flex text-center flex-col lg:flex-row lg:text-left  p-2 rounded-xl'>
+  <div className='bg-gray-100 px-8'>
+    <img className=' w-80' src='/image/sbermar.png' alt='' />
+  </div>
 
-  <div className='flex flex-col gap-6'>
-    <div>
+  <div className='sm:flex sm:justify-around  lg:flex-row w-full '>
+    <div className='flex flex-col gap-4'>
+      <div>
         <h1 className='font-bold'>СберМаркет</h1>
-    </div>
-    <ul className='leading-[1.7] text-sm'>
+      </div>
+      <ul className='leading-[1.7] text-sm'>
         <li>О компании</li>
         <li>Контакты</li>
         <li>Ресторанам</li>
         <li>Стать курьером</li>
         <li>IT-аккредитация</li>
         <li>Промокоды</li>
-
-    </ul>
-  </div>
-
-  <div className='flex flex-col gap-6'>
+      </ul>
+    </div>
+    <div className='flex flex-col gap-4'>
       <div>
-          <h1 className='font-bold'>Помощь покупателю</h1>
+        <h1 className='font-bold'>Помощь покупателю</h1>
       </div>
       <ul className='leading-[1.7] text-sm'>
-          <li>Как мы работаем</li>
-          <li>Зоны доставки</li>
-          <li>Доставка и оплата</li>
-          <li>Помощь</li>
+        <li>Как мы работаем</li>
+        <li>Зоны доставки</li>
+        <li>Доставка и оплата</li>
+        <li>Помощь</li>
       </ul>
-  </div>
-  <div className='flex flex-col gap-6'>
+    </div>
+    <div className='flex flex-col gap-4'>
       <div>
-          <h1 className='font-bold'>+7 800 222-11-00</h1>
+        <h1 className='font-bold'>+7 800 222-11-00</h1>
       </div>
       <span>Круглосуточно</span>
+    </div>
   </div>
 </footer>
+
 
 
 
