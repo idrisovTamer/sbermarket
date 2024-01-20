@@ -23,7 +23,7 @@ const Footer = () => {
 
         <footer className='bg-gray-100 mt-16 pt-6 flex text-center flex-col lg:flex-row lg:text-left  p-2 rounded-xl'>
   <div className='bg-gray-100 px-8'>
-    <img className=' w-80' src='/image/sbermar.png' alt='' />
+    <img className=' w-80' src='./image/sbermar.png' alt='' />
   </div>
 
   <div className='sm:flex sm:justify-around  lg:flex-row w-full '>

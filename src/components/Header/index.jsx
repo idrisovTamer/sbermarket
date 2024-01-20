@@ -13,7 +13,7 @@ const Header = () => {
       <div className="flex justify-between p-1 h-auto">
         <div className="relative flex min-h-[300px] md:w-[80%]">
         <div className="absolute flex flex-col h-full justify-around sm:pl-16 pl-2">
-            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-xl font-medium mt-10">
+            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-2xl font-medium mt-10">
               Доставка из любимых <br />
               магазинов в Грозном
             </p>
@@ -30,7 +30,7 @@ const Header = () => {
           </div>
           <img
             className="rounded-[38px]"
-            src="/image/sberchel.webp"
+            src="./image/sberchel.webp"
             alt="sberboy"
           />
         
@@ -44,7 +44,7 @@ const Header = () => {
 
 <img
   className="rounded-[38px] w-[260px]"
-  src="/image/sberpacket.webp"
+  src="./image/sberpacket.webp"
   alt="package"
 />
 </div>
@@ -58,10 +58,10 @@ const Header = () => {
   <div className=" relative flex py-2 bg-slate-100 rounded-xl justify-between w-full pl-5 ">
     
     <div className=" sm:w-[30%] md:w-[28%] lg:w-[20%] w-[40%] bg-blue-900   py-6 rounded-br-[85px] rounded-l-[10px] relative z-10 ">
-      <img className="rounded-xl h-14" src="/image/lentasmall.avif" alt="lenta" />
+      <img className="rounded-xl h-14" src="./image/lentasmall.avif" alt="lenta" />
     </div>
     <div className="absolute  h-[86%] ml-16 md:ml-28 sm:ml-38 lg:ml-28 w-44  z-1">
-      <img className="h-full w-full rounded-r-[10px] " src="/image/flower.avif" alt="flower" />
+      <img className="h-full w-full rounded-r-[10px] " src="./image/flower.avif" alt="flower" />
     </div>
   </div>
 </div>
