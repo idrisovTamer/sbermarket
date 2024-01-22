@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section className=" sm:p-8 mx-2">
+    <section className=" sm:p-8 mx-2 mt-6">
       <div className="flex flex-col bg-slate-100 md:mt-16 rounded-xl gap-6 p-4 md:p-16">
         <div>
           <h1 className=" sm:font-semibold font-medium text-center sm:text-3xl text-xl ">
