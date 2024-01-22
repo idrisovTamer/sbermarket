@@ -2,8 +2,8 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section>
-      <div className="flex flex-col bg-slate-100 mt-16 rounded-xl gap-6 p-16">
+    <section className=" sm:p-8 mx-2">
+      <div className="flex flex-col bg-slate-100 md:mt-16 rounded-xl gap-6 p-4 md:p-16">
         <div>
           <h1 className=" sm:font-semibold font-medium text-center sm:text-3xl text-xl ">
             Сохраняйте время, энергию и деньги <br />
@@ -11,19 +11,19 @@ const Body = () => {
           </h1>
         </div>
 
-        <div className="flex sm:flex-row gap-6 flex-col justify-between  text-center leading-[1.28] text-[17px] font-light">
+        <div className="  flex sm:flex-row gap-6 flex-col justify-between  text-center leading-[1.28] text-[17px] font-light">
           <div className=" flex flex-col  items-center">
-            <img className="w-[84px] h-[74px]" src="./image/one.jpg" alt="" />
+            <img className="w-[84px] h-[74px]"  src="./image/one.jpg" alt="" />
             <p>
-              Доставим день в день, <br />в удобное для <br />
+              Доставим день в день, в удобное для 
               вас время
             </p>
           </div>
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/two.jpg" alt="" />
             <p>
-              Донесём тяжёлые <br />
-              сумки прямо до <br />
+              Донесём тяжёлые
+              сумки прямо до 
               вашей двери
             </p>
           </div>
@@ -31,23 +31,23 @@ const Body = () => {
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/three.jpg" alt="" />
             <p>
-              Выберем лучшие <br />
-              товары с полок <br />
+              Выберем лучшие 
+              товары с полок 
               магазинов
             </p>
           </div>
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/four.jpg" alt="" />
             <p>
-              Тысячи товаров <br />
+              Тысячи товаров 
               со скидками до 60%
             </p>
           </div>
         </div>
       </div>
 
-      <div className="flex gap-4 flex-col lg:flex-row justify-center text-center  lg:justify-around leading-[1.28 p-16 sm:text-lg md:text-2xl lg:text-2xl">
-        <div className="flex flex-col lg:gap-8">
+      <div className="flex gap-4 flex-col lg:flex-row justify-center text-center p-4  lg:justify-around leading-[1.28 p-1 md:p-16 sm:text-lg md:text-2xl lg:text-2xl">
+        <div className="flex flex-col gap-6">
           <p>
             <span className=" text-green-600 font-bold">Более 3 миллионов</span>{" "}
             заказов в месяц <br />
@@ -62,7 +62,7 @@ const Body = () => {
             по всей России
           </p>
         </div>
-        <div className="flex flex-col lg:gap-8">
+        <div className="flex flex-col gap-6">
           <p>
             <span className=" text-green-600 font-bold">Более 130</span>{" "}
             федеральных и региональных <br />
@@ -78,27 +78,27 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="relative sm:mt-16 flex w-full h-full">
-        <div className="absolute max-w-[500px]  sm:gap-6 flex flex-col justify-center items-center pt-16 py-16  md:pt-20 md:pl-16">
-          <h1 className="font-bold  md:leading-10 text-xl sm:text-3xl text-center">
+      <div className="relative sm:mt-16 flex w-full h-full mt-2 justify-center items-center sm:justify-start sm:items-start">
+        <div className="absolute max-w-[500px]  flex flex-col gap-3 md:gap-8 sm:mt-11 sm:ml-11 mt-24   ">
+          <h1 className=" font-medium sm:font-bold  md:leading-10 text-xl sm:text-3xl ">
             Заказывайте продукты <br />и канцелярию для бизнеса
           </h1>
-          <p className="md:text-[18px] text-small sm:leading-6 text-center ">
+          <p className="md:text-[18px] text-small sm:leading-6  ">
             Профиль компании, закрывающие документы <br />и круглосуточная
             поддержка
           </p>
-          <button className="bg-green-500 sm:mt-0 mt-16  rounded-md text-white py-3 w-[70%] min-h-[55px]">
+          <button className="bg-green-500  rounded-md text-white py-3 w-full md:w-[70%] min-h-[55px]">
             Подробнее
           </button>
         </div>
         <img
-          className="min-h-[365px] w-full h-full"
+          className="min-h-[365px] w-full "
           src="./image/bgmarket.webp"
           alt="bgmarket"
         />
       </div>
 
-      <div className="flex flex-col   mt-16 ">
+      <div className="flex flex-col mt-2 md:mt-16 ">
         <div className=" flex justify-center">
           <h1 className=" font-semibold md:text-[32px] sm:text-25-[px]">
             СберМаркет сходит в магазин вместо вас
@@ -116,7 +116,7 @@ const Body = () => {
               1
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center mt-8">
+          <div className="flex flex-col items-center justify-center mt-12 ">
             <p className="md:text-3xl md:leading-10 text-base sm:text-lg items-center justify-center">
               <span className="font-semibold text-green-500">
                 {" "}
@@ -127,7 +127,7 @@ const Body = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row-reverse relative items-center justify-center mt-6">
+        <div className="flex flex-col md:flex-row-reverse relative items-center justify-center sm:mt-6">
           <img
             className="sm:w-[360px] sm:h-[360px] w-[250px] h-[240px] mx-8"
             src="./image/radius-two.avif"
@@ -138,7 +138,7 @@ const Body = () => {
               2
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center mt-8">
+          <div className="flex flex-col items-center justify-center mt-12">
             <p className="md:text-3xl md:leading-10 text-base sm:text-lg">
               <span className="font-semibold text-green-500">
                 Специалист по закупкам соберёт
@@ -159,7 +159,7 @@ const Body = () => {
               3
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center mt-8">
+          <div className="flex flex-col items-center justify-center mt-12">
             <p className="md:text-3xl md:leading-10 text-base sm:text-lg">
               <span className="font-semibold text-green-500">
                 Курьер привезёт продукты
@@ -170,10 +170,10 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex flex-col bg-gray-100 h-full lg:max-h-[313px] mt-8 md:mt-44 items-center justify-around lg:flex-row lg:items-center lg:justify-around rounded-xl gap-4">
+      <div className="flex flex-col bg-gray-100 h-full lg:max-h-[313px] mt-2  md:mt-44 items-center justify-around lg:flex-row lg:items-center lg:justify-around rounded-xl gap-4">
         <div className="lg:transform lg:translate-y-[-28px] lg:order-1 order-2">
           <img
-            className="w-[365px] h-full lg:h-[368px]"
+            className="sm:w-[365px] w-[260px] sm:h-full lg:h-[368px]"
             src="./image/iphone.avif"
             alt="iphone"
           />
