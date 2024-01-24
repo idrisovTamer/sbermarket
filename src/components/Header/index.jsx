@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section className="sm:p-8 mx-2  ">
       <div className="bg-slate-200 rounded-lg h-11 flex justify-around ">
-        <button className="bg-green-500 text-white font-bold w-full rounded-xl mt-1 mb-1">
+        <button className="bg-green-500 ml-2 text-white font-bold w-full rounded-xl mt-1 mb-1">
           Доставка
         </button>
         <button className="text-gray-400 font-bold w-full">Самовывоз</button>

@@ -6,13 +6,13 @@ const Navbar = () => {
         <div className='flex justify-between'>
             <div className='flex '>
             <button>
-            <img className='lg:w-14 w-12 h-10 lg:h-12 ' src='./image/menu.png' alt='menu'></img>
+            <img className='lg:w-14 w-8 h-8 lg:h-12 ml-4' src='./image/menu.png' alt='menu'></img>
             </button>
-<img className=' w-52 sm:w-auto h-16' src='./image/sbermarket.png' alt='sber-logo'></img>
+<img className='  sm:w-auto h-16' src='./image/sbermarket.png' alt='sber-logo'></img>
             </div>
 
             <div className='mr-1'> 
-            <button className='sm:h-14 border md:rounded-[14px] rounded-lg sm:w-20 w-18 mt-3 sm:mt-2 h-10 sm:font-bold transition duration-300 font-extralight hover:bg-gray-100 px-1' type='button'>
+            <button className='sm:h-10 border  rounded-lg   mt-4 h-10 sm:font-bold transition duration-300 font-medium hover:bg-gray-100  px-3 mr-3' type='button'>
   Войти
 </button>
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section>
-        <div className=' flex flex-col md:mt-14 sm:p-8 mx-2 mt-4 '>
+        <div className=' flex flex-col md:mt-14 sm:p-8 p-3 mx-2 mt-10 '>
             <div className='mb-4 '>
             <h1 className='font-semibold text-base sm:text-lg md:text-xl lg:text-2xl'>Самые популярные ретейлеры в СберМаркете</h1>
             </div>

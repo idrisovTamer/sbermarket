@@ -2,8 +2,8 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section className=" sm:p-8 mx-2 mt-6">
-      <div className="flex flex-col bg-slate-100 md:mt-16 rounded-xl gap-6 p-4 md:p-16">
+    <section className=" sm:p-8 mx-2 mt-8">
+      <div className="flex flex-col bg-slate-100   rounded-xl gap-6 p-8 md:p-16">
         <div>
           <h1 className=" sm:font-semibold font-medium text-center sm:text-3xl text-xl ">
             Сохраняйте время, энергию и деньги <br />
@@ -32,7 +32,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex gap-4 flex-col lg:flex-row justify-center text-center p-4  lg:justify-around leading-[1.28 p-1 md:p-16 sm:text-lg md:text-2xl lg:text-2xl">
+      <div className="flex gap-4 flex-col lg:flex-row justify-center text-center p-4  lg:justify-around mt-8 md:p-16 sm:text-lg md:text-2xl lg:text-2xl">
         <div className="flex flex-col gap-6">
           <p>
             <span className=" text-green-600 font-bold">Более 3 миллионов</span>{" "}
@@ -91,7 +91,7 @@ const Body = () => {
       </div>
 
       <div className="flex flex-col mt-2 md:mt-16  gap-5">
-        <div className=" flex justify-center">
+        <div className=" flex justify-center mt-6">
           <h1 className=" font-semibold md:text-[32px] sm:text-25-[px]">
             СберМаркет сходит в магазин вместо вас
           </h1>
@@ -162,7 +162,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex flex-col bg-gray-100 h-full lg:max-h-[313px] mt-2  md:mt-44 items-center justify-around lg:flex-row lg:items-center lg:justify-around rounded-xl gap-4">
+      <div className="flex flex-col bg-gray-100 h-full lg:max-h-[313px] mt-8  md:mt-44 items-center justify-around lg:flex-row lg:items-center lg:justify-around rounded-xl gap-4">
         <div className="lg:transform lg:translate-y-[-28px] lg:order-1 order-2">
           <img
             className="sm:w-[365px] w-[260px] sm:h-full lg:h-[368px]"
@@ -173,7 +173,7 @@ const Body = () => {
         <div className="order-1">
           <div className="flex flex-col text-center lg:text-start items-center lg:items-start">
             <div className="flex">
-              <h1 className="text-black lg:text-3xl lg:font-semibold lg:leading-10 text-2xl md:font-medium leading-8 ">
+              <h1 className="text-black lg:text-3xl lg:font-semibold lg:leading-10 text-2xl md:font-medium leading-8 mt-8 ">
                 Скачать приложение <br />в{" "}
                 <a className="border-b hover:border-black" href="#">
                   Google play, AppStore, <br />
