@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="sm:p-8 mx-2">
+    <section className="sm:p-8 mx-2  ">
       <div className="bg-slate-200 rounded-lg h-11 flex justify-around ">
         <button className="bg-green-500 text-white font-bold w-full rounded-xl mt-1 mb-1">
           Доставка
@@ -11,13 +11,16 @@ const Header = () => {
       </div>
 
       <div className="flex justify-between p-1 h-auto">
-        <div className="relative flex min-h-[300px] md:w-[80%] ">
-        <div className="absolute flex flex-col h-full justify-around sm:pl-16 pl-2">
-            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-2xl font-medium mt-10">
+        <div className="relative flex min-h-[300px] md:w-[80%]  ">
+        <div className="absolute flex flex-col w-full md:pt-12 pt-24 pl-12 gap-14 lg:pl-16">
+          <div className=" flex ml-2">
+
+            <p className="md:font-bold md:text-4xl md:leading-10 text-white leading-7 text-2xl font-medium ">
               Доставка из любимых <br />
               магазинов в Грозном
             </p>
-            <div className="relative w-full flex ">
+          </div>
+            <div className="hidden md:block relative md:w-[70%] lg:w-[40%]  ">
               <input
                 type="text"
                 placeholder="Ваш адрес"
@@ -27,9 +30,13 @@ const Header = () => {
                 ⚓️
               </button>
             </div>
+            <div className=" md:hidden w-[90%] ">
+              <button className="sm:px-4 sm:py-2 text-green-500 rounded-[5px] font-bold text-sm  w-full h-14  bg-white "> Добавьте свой адрес</button>
+            
+            </div>
           </div>
           <img
-            className="rounded-[38px]"
+            className="rounded-2xl bg-no-repeat object-cover"
             src="./image/sberchel.webp"
             alt="sberboy"
           />
@@ -43,7 +50,7 @@ const Header = () => {
 </div>
 
 <img
-  className="rounded-[38px] w-[260px]"
+  className="rounded-[38px] w-[260px] "
   src="./image/sberpacket.webp"
   alt="package"
 />

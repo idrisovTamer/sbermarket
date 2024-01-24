@@ -13,35 +13,21 @@ const Body = () => {
 
         <div className="  flex sm:flex-row gap-6 flex-col justify-between  text-center leading-[1.28] text-[17px] font-light">
           <div className=" flex flex-col  items-center">
-            <img className="w-[84px] h-[74px]"  src="./image/one.jpg" alt="" />
-            <p>
-              Доставим день в день, в удобное для 
-              вас время
-            </p>
+            <img className="w-[84px] h-[74px]" src="./image/one.jpg" alt="" />
+            <p>Доставим день в день, в удобное для вас время</p>
           </div>
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/two.jpg" alt="" />
-            <p>
-              Донесём тяжёлые
-              сумки прямо до 
-              вашей двери
-            </p>
+            <p>Донесём тяжёлые сумки прямо до вашей двери</p>
           </div>
 
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/three.jpg" alt="" />
-            <p>
-              Выберем лучшие 
-              товары с полок 
-              магазинов
-            </p>
+            <p>Выберем лучшие товары с полок магазинов</p>
           </div>
           <div className=" flex flex-col  items-center">
             <img className="w-[84px] h-[74px]" src="./image/four.jpg" alt="" />
-            <p>
-              Тысячи товаров 
-              со скидками до 60%
-            </p>
+            <p>Тысячи товаров со скидками до 60%</p>
           </div>
         </div>
       </div>
@@ -78,8 +64,8 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="relative sm:mt-16 flex w-full h-full mt-2 justify-center items-center sm:justify-start sm:items-start">
-        <div className="absolute max-w-[500px]  flex flex-col gap-3 md:gap-8 sm:mt-11 sm:ml-11 mt-24   ">
+      <div className="relative md:mt-16 flex w-full h-full mt-2 justify-center items-end md:justify-start md:items-start ">
+        <div className=" absolute   flex flex-col gap-3 md:gap-8 md:mt-11 md:ml-11 mb-6 ">
           <h1 className=" font-medium sm:font-bold  md:leading-10 text-xl sm:text-3xl ">
             Заказывайте продукты <br />и канцелярию для бизнеса
           </h1>
@@ -87,18 +73,24 @@ const Body = () => {
             Профиль компании, закрывающие документы <br />и круглосуточная
             поддержка
           </p>
-          <button className="bg-green-500  rounded-md text-white py-3 w-full md:w-[70%] min-h-[55px]">
+          <button className="bg-green-500  rounded-md text-white py-3 w-full lg:w-[70%]">
             Подробнее
           </button>
         </div>
+
         <img
-          className="min-h-[365px] w-full "
+          className="hidden md:block object-cover  min-h-[365px] rounded-3xl"
           src="./image/bgmarket.webp"
           alt="bgmarket"
         />
+        <img
+          className="md:hidden w-full max-h-[465px] object-cover object-top rounded-3xl"
+          src="./image/bg-market-min.webp"
+          alt="bgmarket-min"
+        />
       </div>
 
-      <div className="flex flex-col mt-2 md:mt-16 ">
+      <div className="flex flex-col mt-2 md:mt-16  gap-5">
         <div className=" flex justify-center">
           <h1 className=" font-semibold md:text-[32px] sm:text-25-[px]">
             СберМаркет сходит в магазин вместо вас
@@ -112,11 +104,11 @@ const Body = () => {
             alt="sberphone"
           />
           <div className="absolute md:top-0 md:mr-36 mt-40  sm:mt-64 md:mt-0">
-            <p className=" bg-gray-100 w-20 h-20 text-center flex items-center justify-center rounded-full text-3xl font-bold">
+            <p className=" bg-gray-100 md:w-20 w-12 h-12 md:h-20 text-center flex items-center justify-center rounded-full md:text-3xl text-xl md:font-bold">
               1
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center mt-12 ">
+          <div className="flex flex-col items-center justify-center mt-12">
             <p className="md:text-3xl md:leading-10 text-base sm:text-lg items-center justify-center">
               <span className="font-semibold text-green-500">
                 {" "}
@@ -134,7 +126,7 @@ const Body = () => {
             alt="sberphone"
           />
           <div className="absolute md:top-0 md:ml-80 mt-40  sm:mt-64 md:mt-0">
-            <p className="bg-gray-100 w-20 h-20 text-center flex items-center justify-center rounded-full text-3xl font-bold">
+            <p className="bg-gray-100 md:w-20 w-12 h-12 md:h-20 text-center flex items-center justify-center rounded-full md:text-3xl text-xl md:font-bold">
               2
             </p>
           </div>
@@ -155,7 +147,7 @@ const Body = () => {
             alt="sberphone"
           />
           <div className="absolute md:top-0 md:mr-36 mt-40 sm:mt-64 md:mt-0">
-            <p className="bg-gray-100 w-20 h-20 text-center flex items-center justify-center rounded-full text-3xl font-bold">
+            <p className="bg-gray-100 md:w-20 w-12 h-12 md:h-20 text-center flex items-center justify-center rounded-full md:text-3xl text-xl md:font-bold">
               3
             </p>
           </div>
